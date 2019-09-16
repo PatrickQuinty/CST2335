@@ -7,4 +7,5 @@
     <string name="Switch">Switch on / off</string>
     <string name="Click">CLICK HERE</string>
     <string name="TypePrompt">Type here</string>
+    <string name="Error">There was an error loading the image</string>
 </resources>

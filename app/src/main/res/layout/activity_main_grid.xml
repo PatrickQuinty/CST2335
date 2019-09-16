@@ -2,10 +2,10 @@
 <GridLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:rowCount="4"
     android:columnCount="2"
-    android:layout_height="match_parent"
->
+    >
 
     <TextView
         android:layout_height="wrap_content"
@@ -13,6 +13,7 @@
         android:layout_columnWeight="1"
         android:layout_columnSpan="2"
         android:text="@string/GUI"
+        android:textSize="30dp"
     />
 
     <Button
@@ -32,9 +33,10 @@
 
     <ImageButton
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_columnWeight="1"
         android:src="@drawable/flag"
+        android:contentDescription="@string/Error"
     />
 
     <Switch
@@ -45,9 +47,13 @@
     />
 
     <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:layout_columnWeight="1"
         android:layout_columnSpan="2"
-        android:text="@string/TypePrompt"
+        android:hint="@string/TypePrompt"
+        android:importantForAutofill="no"
+        android:inputType="text"
     />
 
 

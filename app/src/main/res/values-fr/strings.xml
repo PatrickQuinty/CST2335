@@ -8,6 +8,8 @@
     <string name="Switch">Orientez on / off</string>
     <string name="Click">Pesez moi</string>
     <string name="TypePrompt">Écrivez ici</string>
+    <string name="Error">Il y avais une erraur pendant l\'importation de l\'image</string>
+
 
 
 </resources>

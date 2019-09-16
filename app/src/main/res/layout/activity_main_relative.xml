@@ -12,6 +12,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:text="@string/GUI"
+        android:textSize="30dp"
     />
 
     <Button
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/flag"
         android:layout_below="@+id/button"
+        android:contentDescription="@string/Error"
     />
 
     <Switch
@@ -57,7 +59,7 @@
         android:layout_below="@id/img"
         android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
-        android:text="@string/TypePrompt"
+        android:hint="@string/TypePrompt"
     />
 
 </RelativeLayout>
