@@ -2,7 +2,7 @@
 <GridLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:rowCount="5"
+    android:rowCount="4"
     android:columnCount="2"
     android:layout_height="match_parent"
 >
@@ -11,17 +11,15 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"
         android:layout_columnSpan="2"
-        android:text="@string/hello_message"
+        android:text="@string/GUI"
     />
 
     <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"
-        android:text="@string/ButtonText"
+        android:text="@string/Click"
 
     />
 
@@ -29,15 +27,13 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"
-        android:text="Check this out!"
+        android:text="@string/Check"
     />
 
     <ImageButton
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"
         android:src="@drawable/flag"
     />
 
@@ -45,13 +41,13 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_columnWeight="1"
-        android:text="Switch on / off"
+        android:text="@string/Switch"
     />
 
     <EditText
         android:layout_columnWeight="1"
         android:layout_columnSpan="2"
-        android:text="Type Here"
+        android:text="@string/TypePrompt"
     />
 
 

@@ -3,4 +3,11 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Bonjour!</string>
     <string name="ButtonText">Je suis un bouton</string>
+    <string name="GUI">Visionne mon IGU</string>
+    <string name="Check">Que c\'est coche!</string>
+    <string name="Switch">Orientez on / off</string>
+    <string name="Click">Pesez moi</string>
+    <string name="TypePrompt">Écrivez ici</string>
+
+
 </resources>
