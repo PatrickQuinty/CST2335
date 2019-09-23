@@ -9,6 +9,17 @@
     <string name="Click">Pesez moi</string>
     <string name="TypePrompt">Écrivez ici</string>
     <string name="Error">Il y avais une erraur pendant l\'importation de l\'image</string>
+    <string name="mailPromptText">Entrée votre addresse email:</string>
+    <string name="mailFillText">Entre email içi</string>
+    <string name="passPromptText">Entrée n mot de passe</string>
+    <string name="loginText">Connecter</string>
+    <string name="profileText">Ton Profile</string>
+    <string name="namePromptText">Ton nom:</string>
+    <string name="nameFillText">Entre ton nom</string>
+    <string name="mail2PromptText">Ton email:</string>
+    <string name="mail2FillText">Entre votre email</string>
+    <string name="picPromptText">Votre photo:</string>
+    <string name="picHintText">Pesez le bouton en haut pour prendre un photo</string>
 
 
 
