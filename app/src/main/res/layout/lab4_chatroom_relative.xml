@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:text="Send"
+        android:text="@string/sendBtnText"
         />
     <EditText
         android:id="@+id/msgContent"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="Receive"
+        android:text="@string/receiveBtnText"
         />
 
 
