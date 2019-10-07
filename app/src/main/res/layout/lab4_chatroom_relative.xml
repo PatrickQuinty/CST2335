@@ -26,6 +26,7 @@
         android:layout_toEndOf="@id/sendBtn"
         android:layout_toStartOf="@id/getBtn"
         android:layout_alignParentBottom="true"
+        android:layout_below="@id/msgList"
 
         />
     <Button
