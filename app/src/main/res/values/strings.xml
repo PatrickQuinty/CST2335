@@ -8,10 +8,12 @@
     <string name="Click">CLICK HERE</string>
     <string name="TypePrompt">Type here</string>
     <string name="Error">There was an error loading the image</string>
+
     <string name="mailPromptText">Enter your email address:</string>
     <string name="mailFillText">Type email here</string>
     <string name="passPromptText">Type your passowrd</string>
     <string name="loginText">Login</string>
+
     <string name="profileText">Your Profile</string>
     <string name="namePromptText">Your name:</string>
     <string name="nameFillText">Enter your name</string>
@@ -19,4 +21,8 @@
     <string name="mail2FillText">Enter your email</string>
     <string name="picPromptText">Your picture:</string>
     <string name="picHintText">Click the button above to take a picture</string>
+
+    <string name="chatBtnText">Start Chatting!</string>
+    <string name="sendBtnText">Send</string>
+    <string name="receiveBtnText">Receive</string>
 </resources>

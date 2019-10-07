@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/msgText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/avatar"
+        android:text="exampleText"
+        />
+
+    <!--Scaletype fitxy makes the image keep it's proportions
+            adjustViewBounds makes the view size follow the maxWidth
+            maxwidth sets the width, in this case 72 pixels -->
+    <ImageView
+
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/row_send"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:maxWidth="72dp"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>

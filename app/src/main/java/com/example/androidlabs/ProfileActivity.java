@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
@@ -34,6 +35,7 @@ public class ProfileActivity extends AppCompatActivity {
         mail2nd.setText(emailInput);
 
         ImageButton picPrompt = findViewById(R.id.imgBtn);
+        Button chatStart = findViewById(R.id.chatBtn);
 
         if(picPrompt != null)
         {
@@ -43,6 +45,14 @@ public class ProfileActivity extends AppCompatActivity {
                             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
                         }}
             );
+        }
+
+        if(chatStart != null)
+        {
+            chatStart.setOnClickListener(
+                    v -> {Intent chatIntent = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+                    startActivity(chatIntent);
+                    });
         }
     }
 

@@ -69,6 +69,13 @@
         android:layout_below="@id/imgBtn"
         android:text="@string/picHintText"
         />
+    <Button
+        android:id="@+id/chatBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text5_2"
+        android:text="@string/chatBtnText"
+        />
 
 
 </RelativeLayout>
