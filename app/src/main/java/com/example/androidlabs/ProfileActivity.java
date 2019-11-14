@@ -36,6 +36,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         ImageButton picPrompt = findViewById(R.id.imgBtn);
         Button chatStart = findViewById(R.id.chatBtn);
+        Button weatherStart = findViewById(R.id.weatherBtn);
 
         if(picPrompt != null)
         {
@@ -44,6 +45,14 @@ public class ProfileActivity extends AppCompatActivity {
                         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
                             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
                         }}
+            );
+        }
+
+        if(weatherStart != null)
+        {
+            weatherStart.setOnClickListener(
+                    v -> {Intent weatherIntent = new Intent(ProfileActivity.this, WeatherForecast.class);
+                    startActivity(weatherIntent);}
             );
         }
 
