@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/typeItem"
+        android:title="name1"
+        android:icon="@drawable/icons8_edit_50"
+        android:orderInCategory="101"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/toastItem"
+        android:title="name1"
+        android:icon="@drawable/icons8_share_50"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item android:id="@+id/goBack"
+        android:title="name1"
+        android:icon="@drawable/icons8_synchronize_50"
+        android:orderInCategory="102"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/overflowItem"
+        android:title="Overflow"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+
+
+</menu>

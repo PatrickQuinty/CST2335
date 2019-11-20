@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -28,7 +29,6 @@ public class ProfileActivity extends AppCompatActivity {
 
         EditText mail2nd = findViewById(R.id.mailFTwo);
 
-
         Intent dataFromLastPage = getIntent();
         String emailInput = dataFromLastPage.getStringExtra("emailInput");
 
@@ -37,6 +37,7 @@ public class ProfileActivity extends AppCompatActivity {
         ImageButton picPrompt = findViewById(R.id.imgBtn);
         Button chatStart = findViewById(R.id.chatBtn);
         Button weatherStart = findViewById(R.id.weatherBtn);
+        Button toolBarStart = findViewById(R.id.toolbarBtn);
 
         if(picPrompt != null)
         {
@@ -52,7 +53,15 @@ public class ProfileActivity extends AppCompatActivity {
         {
             weatherStart.setOnClickListener(
                     v -> {Intent weatherIntent = new Intent(ProfileActivity.this, WeatherForecast.class);
-                    startActivity(weatherIntent);}
+                        startActivity(weatherIntent);}
+            );
+        }
+
+        if(toolBarStart != null)
+        {
+            toolBarStart.setOnClickListener(
+                    (View v) -> {Intent toolbarIntent = new Intent(ProfileActivity.this, TestToolbar.class);
+                        startActivity(toolbarIntent);}
             );
         }
 
